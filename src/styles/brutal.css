@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: #fff;
+  color: #000;
+}
+
+.box {
+  border: 5px solid #000;
+  padding: 32px;
+  margin: 24px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 12px;
+}
+
+a {
+  font-weight: bold;
+  color: #000;
+}

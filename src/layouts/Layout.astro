@@ -1,18 +1,15 @@
 ---
-import '../styles/global.css';
-const { title } = Astro.props;
+import "../styles/brutal.css";
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title || 'Brutalist Website'}</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap">
-</head>
-<body>
-  <main class="brutalist-container">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>BRUTAL</title>
+  </head>
+  <body>
     <slot />
-  </main>
-</body>
+  </body>
 </html>
